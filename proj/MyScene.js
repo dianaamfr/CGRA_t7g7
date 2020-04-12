@@ -51,7 +51,7 @@ class MyScene extends CGFscene {
         this.axis = new CGFaxis(this);
         this.incompleteSphere = new MySphere(this, 16, 8);
         this.cylinder = new MyCylinder(this,30,10);
-        this.cubeMap = new MyUnitCubeQuad(this);
+        this.cubeMap = new MyCubeMap(this);
         this.objects = [this.cylinder,this.incompleteSphere];
 
         // Labels and ID's for object selection on MyInterface

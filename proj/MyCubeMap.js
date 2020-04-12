@@ -1,9 +1,9 @@
 /**
- * MyUnitCubeQuad
+ * MyCubeMap
  * @constructor
  * @param scene - Reference to MyScene object
  */
-class MyUnitCubeQuad extends CGFobject {
+class MyCubeMap extends CGFobject {
    constructor(scene) {
       super(scene);
       
